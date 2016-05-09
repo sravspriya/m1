@@ -18,13 +18,13 @@
 	<target name="build-war">
 
 
-		<war destfile="C:\Program Files\agent\var\work\M1 Component\dists\M1.war" webxml="C:\Program Files\agent\var\work\M1 Component\web\WEB-INF\web.xml">
+		<war destfile="C:\Program Files\agent\var\work\m1 Component\dists\m1.war" webxml="C:\Program Files\agent\var\work\m1 Component\web\WEB-INF\web.xml">
 	  <!--Give the WebContent folder path-->
-		<fileset dir="C:\Program Files\agent\var\work\M1 Component\web">
+		<fileset dir="C:\Program Files\agent\var\work\m1 Component\web">
         <include name="**/*.*"/>
 		</fileset>
       <!--Give the lib folder path-->
-		<lib dir="C:\Program Files\agent\var\work\M1 Component\WEB-INF\lib">
+		<lib dir="C:\Program Files\agent\var\work\m1 Component\WEB-INF\lib">
          
 		</lib>
       <!--Give the classes folder path-->
